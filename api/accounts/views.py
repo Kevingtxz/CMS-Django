@@ -41,3 +41,10 @@ def createOrder(request):
 
     context = {'form':form}
     return render(request, 'accounts/order_form.html', context)
+
+def updateOrder(request, pk):
+    form = OrderForm()
+    if request.method == "PUT":
+        print('Printing PUT:', request.PUT)
+    context = {}
+    return render(request, 'accounts/order_form.html', context)
