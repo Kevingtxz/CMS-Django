@@ -33,7 +33,6 @@ def customer(request, pk_test):
 def createOrder(request):
     form = OrderForm()
     if request.method == "POST":
-        #test ~ print('Printing POST:', request.POST)
         form = OrderForm(request.POST)
         if form.is_valid():
             form.save()
@@ -43,8 +42,12 @@ def createOrder(request):
     return render(request, 'accounts/order_form.html', context)
 
 def updateOrder(request, pk):
-    form = OrderForm()
-    if request.method == "PUT":
-        print('Printing PUT:', request.PUT)
-    context = {}
+    order = Order.objects.get(id=pk)
+    form = OrderForm(instance=order)
+    if request.method == "POST":
+        form = OrderForm(request.POST, instance=order)
+        if form.is_valid():
+            form.save()
+            return redirect('/')
+    context = {'form':form}
     return render(request, 'accounts/order_form.html', context)
