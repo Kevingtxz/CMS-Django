@@ -1,7 +1,7 @@
-# Django-API
+# CMS Django Fullstack
 
-A customer relationship management project that I build with Python with Django, Html, Css and Bootstrap. This is a MVT project with some data 
-relationship(many to many, many to one, one to one) that can show my Python with Django Skills to work as developer.
+A customer relationship management project that I build with Python, Django, Html, Css and Bootstrap. This is a MVT project with some data 
+relationship(many to many, many to one, one to one).
 
 # What have I learned?
 
