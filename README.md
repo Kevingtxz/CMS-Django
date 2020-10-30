@@ -1,7 +1,7 @@
 # CMS Django Fullstack
 
-A customer relationship management project that I build with Python, 
+A simple customer relationship management that I made with a course
 
 # Tools that I used
 
-Sql, PostgreSQL, Django, HTML/CSS, and Bootstrap.
+Python, Django, Sql, PostgreSQL, Javascript, HTML/CSS, and Bootstrap.
