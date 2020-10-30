@@ -1,4 +1,4 @@
-![](Django (1).png)
+![](Django1.png)
 # CMS Django Fullstack
 
 Django (5).png
