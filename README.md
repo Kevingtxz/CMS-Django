@@ -1,14 +1,14 @@
 ![](Django1.png)
 # CMS Django Fullstack
 
-Django (5).png
+Django4.png
 
 A simple customer relationship management that I made with a course
 
-Django (4).png
+Django3.png
 
 # Tools that I used
 
-Django (2).png
+Django2.png
 
 Python, Django, Sql, PostgreSQL, Javascript, HTML/CSS, and Bootstrap.
